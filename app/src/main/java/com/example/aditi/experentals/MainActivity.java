@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Intent intent_mainactivity;
-        intent_mainactivity = new Intent(MainActivity.this, ChoiceScreen.class);
+        intent_mainactivity = new Intent(MainActivity.this, AuthActivity.class);
         startActivity(intent_mainactivity);
     }
 }
